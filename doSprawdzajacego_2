@@ -1,0 +1,30 @@
+Szanowni Państwo,
+
+Zadanie dostałem na rozmowie kwalifikacyjnej w Państwa firmie ok. 3 tygodnie temu.
+Miałem zaimplementować system zarządzający użytkownikami.
+Obecnie jestem na pierwszym roku informatyki na AGH. Nie programowałem 
+wcześniej w PHP. Z powodu nadchodzącej sesji bardzo trudno było mi znaleźć czas na
+ten projekt. Proszę o uwzględnienie okoliczności. 
+
+Postanowiłem napisać, co chciałbym zmienić, ponieważ z chęcią bym to zrobił, 
+ale w ciągu najbliższych dwóch tygodni nie będę miał już w ogóle czasu by to 
+naprawić z powodu egzaminów, a nie chcę przeciągać wysłania tego zadania.
+Pewne rzeczy zauważyłem dopiero w trakcie tworzenia, jako że wcześniej nie 
+robiłem tego typu programów i nie wiedziałem, z czym się dokładnie spotkam.
+Gdybym miał więcej czasu:
+- kod z __constuct w controllerach rozłożyłbym na odpowiednie funkcje wywoływane 
+    z poziomu MainClient
+- kod związany z bazą danych w części miejsc się powtarza, więc stworzyłbym 
+    klasę zbierającą podstawowe funkcje itp.
+- stworzyłbym klasę odpowiedzialną za generowanie formularzy dla widoku
+- myślę, że dobrym rozwiązaniem byłoby dodanie do konkretnych widoków 
+    funkcji odpowiedzialnych za wyświetlenie podstrony w poszczególnych 
+    przypadkach, tak by zredukować switch-e i if-y.
+- zrobiłbym lepsze zarządzanie linkami.
+
+Starałem się zaimplementować rozwiązanie oparte o MVC i uniwersalne(przykładowo
+skomentowanie jednej linijki w tablicy $fields w formularzach, wystarczy by 
+pole przestało być uwzględniane przez skrypt).
+
+Pozdrawiam,
+Jakub Brzegowski
